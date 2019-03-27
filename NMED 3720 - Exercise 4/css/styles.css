@@ -1,0 +1,76 @@
+body {
+	background-color: #000; 
+
+}
+
+h1{
+  font-family: 'Give You Glory', cursive;
+  color: #f4ad29;
+  font-size: 60px; 
+  margin-left: 100px; 
+}
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 16px ;
+  color: #FFF;
+}
+a{
+  color: #FFF; 
+  letter-spacing: 2px; 
+  font-size: 20px; 
+}
+
+#Simages {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+/*Reference: https://css-tricks.com/having-fun-with-link-hover-effects/*/ 
+:root {
+  --mainColor: #ffae42;
+}
+
+.link{
+  font-size: 14px; 
+  font-family: 'Open Sans Condensed', sans-serif;
+  background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+  color: #FFF; 
+  text-decoration: none;
+}
+
+.link:hover {
+  padding-top: 20px; 
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 4px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+
+/* Old code for adding illustion of movement*/ 
+/** {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}*/
+
+/*Simages{ 
+  display: inline-grid;
+  float: left;
+  margin: 20px;
+  overflow: hidden;
+
+}
+#Simages img:hover {
+  margin-left: -30px;
+  margin-right: 5px;
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+}*/
